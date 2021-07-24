@@ -1,6 +1,6 @@
 ## Laboratorio 1:
 ### Descripción
-Laboratorio 1 Análisis Exploratorio. PCA, apriori.
+Laboratorio 1 Análisis Exploratorio. PCA, apriori
 
 ### Integrantes:
 <ul>
