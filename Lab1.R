@@ -5,3 +5,4 @@
 #leer data train.csv
 dataSet<-read.csv("./data/train.csv")
 str(dataSet)
+summary(dataSet)
