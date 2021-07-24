@@ -6,3 +6,6 @@
 dataSet<-read.csv("./data/train.csv")
 str(dataSet)
 summary(dataSet)
+
+library(dataMaid)
+makeCodebook(dataSet)
