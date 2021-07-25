@@ -4,8 +4,11 @@
 
 #leer data train.csv
 dataSet<-read.csv("./data/train.csv")
+#imprimir dataSet
 str(dataSet)
+#resumen del dataSet
 summary(dataSet)
 
+#codebool del dataSet
 library(dataMaid)
 makeCodebook(dataSet)
