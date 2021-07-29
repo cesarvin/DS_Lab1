@@ -10,7 +10,9 @@ library("arules")
 
 #leer data train.csv
 dataSet<-read.csv("./data/train.csv")
+#imprimir dataSet
 str(dataSet)
+#resumen del dataSet
 summary(dataSet)
 
 #se genera el codebook del dataset para el analisis de las variables
