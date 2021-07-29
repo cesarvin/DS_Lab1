@@ -1,9 +1,6 @@
 # Project: Laboratorio 1 Data Science
 # Authors: Abril Palencia 18198, Cesar Rodas 16776
 # Date: 2021-07-23
-install.packages("arules")
-install.packages("arulesViz")
-
 
 library("corrplot")
 library("arules")
@@ -17,7 +14,7 @@ summary(dataSet)
 
 #se genera el codebook del dataset para el analisis de las variables
 library(dataMaid)
-makeCodebook(dataSet)
+#makeCodebook(dataSet) #para ejecutar este comando hay que borrar el archivo de word del repo
 
 # variables cuantitativas
 cuantitativas<-data.frame(
@@ -74,7 +71,7 @@ library(FactoMineR)
 library(fpc)
 library(factoextra)
 
-pafVariables <- paf(as.matrix(Variables))
+pafVariables <- paf(as.matrix(variables))
 pafVariables$KMO 
 
 #Reglas de asociacion
